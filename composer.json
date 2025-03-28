@@ -1,0 +1,15 @@
+{
+    "name": "ilya/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Ilya\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ilya Chehov",
+            "email": "ichehoc96@gmail.com"
+        }
+    ],
+    "require": {}
+}
