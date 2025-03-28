@@ -1,9 +1,13 @@
 {
     "name": "ilya/hexlet-php",
+    "description": "project for studing at hexlet",
     "autoload": {
         "psr-4": {
             "Ilya\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +15,7 @@
             "email": "ichehoc96@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^12.3"
+    }
 }
