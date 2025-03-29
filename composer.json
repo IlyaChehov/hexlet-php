@@ -17,5 +17,11 @@
     ],
     "require": {
         "illuminate/collections": "^12.3"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.12"
     }
 }
